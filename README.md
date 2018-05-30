@@ -1,11 +1,13 @@
-#  [![Build Status](https://secure.travis-ci.org/fahad19/glob-run.png?branch=master)](http://travis-ci.org/fahad19/glob-run)
+<!-- #  [![Build Status](https://secure.travis-ci.org/fahad19/glob-run.png?branch=master)](http://travis-ci.org/fahad19/glob-run) -->
+
+Fork of http://travis-ci.org/fahad19/glob-run, with updated dependencies.
 
 > Run multiple commands by glob patterns sequentially.
 
 ## Install
 
 ```sh
-$ npm install -g glob-run
+$ npm install -g @geirsagberg/glob-run
 ```
 
 ### Usage
@@ -38,7 +40,7 @@ From package.json:
 ```json
 {
   "dependencies": {
-    "glob-run": "^0.1.3",
+    "@geirsagberg/glob-run": "^0.1.7",
     "browserify": "^8.0.3"
   },
   "scripts": {
